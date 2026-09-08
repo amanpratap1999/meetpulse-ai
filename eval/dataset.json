@@ -1,0 +1,146 @@
+[
+  {
+    "id": "meeting_01",
+    "title": "Backend Sprint Planning",
+    "transcript": "Alice: Welcome team. Let's cover our blockers. Bob: I will migrate the PostgreSQL schema to v2 by Friday. Alice: Great, Charlie will you write the unit tests? Charlie: Yes, I will write the integration and unit tests before Monday.",
+    "expected_action_items": [
+      {"owner": "Bob", "task_keywords": ["migrate", "postgresql", "schema"], "due_date": "by friday"},
+      {"owner": "Charlie", "task_keywords": ["write", "tests"], "due_date": "before monday"}
+    ]
+  },
+  {
+    "id": "meeting_02",
+    "title": "Product Launch Readiness",
+    "transcript": "Dana: We are two weeks away from launch. Elena: I will prepare the press release draft by Wednesday. Dana: I will verify payment gateway webhooks by tomorrow eod.",
+    "expected_action_items": [
+      {"owner": "Elena", "task_keywords": ["prepare", "press", "release"], "due_date": "by wednesday"},
+      {"owner": "Dana", "task_keywords": ["verify", "payment", "webhooks"], "due_date": "by tomorrow eod"}
+    ]
+  },
+  {
+    "id": "meeting_03",
+    "title": "Customer Success Sync",
+    "transcript": "Fiona: Client Acme Corp reported slow response times. George: I will investigate the Redis caching latency by this afternoon. Fiona: I will send an apology email to their account manager by 3pm.",
+    "expected_action_items": [
+      {"owner": "George", "task_keywords": ["investigate", "redis", "caching"], "due_date": "by this afternoon"},
+      {"owner": "Fiona", "task_keywords": ["send", "apology", "email"], "due_date": "by 3pm"}
+    ]
+  },
+  {
+    "id": "meeting_04",
+    "title": "Security & Compliance Review",
+    "transcript": "Hannah: SOC2 audit window opens next month. Ian: I will rotate all production SSL certificates before Friday. Hannah: I will update the employee access log documentation by next week.",
+    "expected_action_items": [
+      {"owner": "Ian", "task_keywords": ["rotate", "certificates"], "due_date": "before friday"},
+      {"owner": "Hannah", "task_keywords": ["update", "access", "documentation"], "due_date": "by next week"}
+    ]
+  },
+  {
+    "id": "meeting_05",
+    "title": "Marketing Campaign Kickoff",
+    "transcript": "Jack: We need to increase top-of-funnel traffic. Karen: I will design three ad creative variations by Thursday. Jack: I will set up the Google Ads conversion tracking by tomorrow.",
+    "expected_action_items": [
+      {"owner": "Karen", "task_keywords": ["design", "ad", "variations"], "due_date": "by thursday"},
+      {"owner": "Jack", "task_keywords": ["set up", "conversion", "tracking"], "due_date": "by tomorrow"}
+    ]
+  },
+  {
+    "id": "meeting_06",
+    "title": "Frontend Architecture Review",
+    "transcript": "Leo: The bundle size grew by 35% after the last release. Maya: I will audit the NPM dependencies and tree-shake packages by Friday. Leo: I will refactor the image lazy loading pipeline by Monday.",
+    "expected_action_items": [
+      {"owner": "Maya", "task_keywords": ["audit", "dependencies"], "due_date": "by friday"},
+      {"owner": "Leo", "task_keywords": ["refactor", "lazy", "loading"], "due_date": "by monday"}
+    ]
+  },
+  {
+    "id": "meeting_07",
+    "title": "HR Onboarding Optimization",
+    "transcript": "Nina: We have four new senior engineers joining in two weeks. Oscar: I will provision AWS developer sandbox accounts by Wednesday. Nina: I will order the hardware laptops before end of week.",
+    "expected_action_items": [
+      {"owner": "Oscar", "task_keywords": ["provision", "aws", "accounts"], "due_date": "by wednesday"},
+      {"owner": "Nina", "task_keywords": ["order", "laptops"], "due_date": "before end of week"}
+    ]
+  },
+  {
+    "id": "meeting_08",
+    "title": "Sales Pipeline Review",
+    "transcript": "Paul: We have 5 enterprise deals pending in the pipeline. Quinn: I will send the revised SLA agreement to Beta Inc by Tuesday. Paul: I will schedule the executive demo call with MegaCorp by Thursday.",
+    "expected_action_items": [
+      {"owner": "Quinn", "task_keywords": ["send", "sla", "agreement"], "due_date": "by tuesday"},
+      {"owner": "Paul", "task_keywords": ["schedule", "demo", "call"], "due_date": "by thursday"}
+    ]
+  },
+  {
+    "id": "meeting_09",
+    "title": "DevOps Incident Post-Mortem",
+    "transcript": "Rachel: Let's review yesterday's outage in us-east-1. Sam: I will configure multi-region database failover before next sprint. Rachel: I will publish the public incident post-mortem report by tomorrow noon.",
+    "expected_action_items": [
+      {"owner": "Sam", "task_keywords": ["configure", "multi-region", "failover"], "due_date": "before next sprint"},
+      {"owner": "Rachel", "task_keywords": ["publish", "post-mortem"], "due_date": "by tomorrow noon"}
+    ]
+  },
+  {
+    "id": "meeting_10",
+    "title": "Data Engineering Sync",
+    "transcript": "Tom: The nightly Snowflake ELT pipeline failed last night due to memory limits. Uma: I will optimize the dbt SQL transformation models by Friday. Tom: I will increase the Airflow worker memory limits by this evening.",
+    "expected_action_items": [
+      {"owner": "Uma", "task_keywords": ["optimize", "dbt", "sql"], "due_date": "by friday"},
+      {"owner": "Tom", "task_keywords": ["increase", "airflow", "memory"], "due_date": "by this evening"}
+    ]
+  },
+  {
+    "id": "meeting_11",
+    "title": "Design System Meeting",
+    "transcript": "Victor: We need consistent button hierarchy across the mobile and web app. Wendy: I will export Figma color tokens to the React repo by Wednesday. Victor: I will update the Storybook documentation by Friday.",
+    "expected_action_items": [
+      {"owner": "Wendy", "task_keywords": ["export", "tokens"], "due_date": "by wednesday"},
+      {"owner": "Victor", "task_keywords": ["update", "storybook"], "due_date": "by friday"}
+    ]
+  },
+  {
+    "id": "meeting_12",
+    "title": "Mobile App Release Prep",
+    "transcript": "Xavier: iOS submission is scheduled for version 2.4. Yara: I will fix the push notification background crash before Thursday. Xavier: I will capture localized App Store screenshots by Friday morning.",
+    "expected_action_items": [
+      {"owner": "Yara", "task_keywords": ["fix", "push", "notification"], "due_date": "before thursday"},
+      {"owner": "Xavier", "task_keywords": ["capture", "app store", "screenshots"], "due_date": "by friday morning"}
+    ]
+  },
+  {
+    "id": "meeting_13",
+    "title": "Executive Leadership Sync",
+    "transcript": "Zack: Let's align on Q4 OKR targets. Amy: I will compile the department budget proposals by next Monday. Zack: I will draft the board meeting presentation deck by Friday.",
+    "expected_action_items": [
+      {"owner": "Amy", "task_keywords": ["compile", "budget", "proposals"], "due_date": "by next monday"},
+      {"owner": "Zack", "task_keywords": ["draft", "board", "deck"], "due_date": "by friday"}
+    ]
+  },
+  {
+    "id": "meeting_14",
+    "title": "AI Feature Prototyping",
+    "transcript": "Ben: We want to add voice transcription to our meeting assistant. Chloe: I will benchmark the Whisper API response latency by Thursday. Ben: I will build the audio streaming WebSocket endpoint by next Tuesday.",
+    "expected_action_items": [
+      {"owner": "Chloe", "task_keywords": ["benchmark", "whisper"], "due_date": "by thursday"},
+      {"owner": "Ben", "task_keywords": ["build", "websocket", "endpoint"], "due_date": "by next tuesday"}
+    ]
+  },
+  {
+    "id": "meeting_15",
+    "title": "Customer Retention Taskforce",
+    "transcript": "Derek: Churn in tier-2 accounts rose 2% last month. Emma: I will interview five recently churned customer accounts by Friday. Derek: I will analyze feature usage drops in Mixpanel by Wednesday.",
+    "expected_action_items": [
+      {"owner": "Emma", "task_keywords": ["interview", "churned", "accounts"], "due_date": "by friday"},
+      {"owner": "Derek", "task_keywords": ["analyze", "mixpanel"], "due_date": "by wednesday"}
+    ]
+  },
+  {
+    "id": "meeting_16",
+    "title": "QA Automation Review",
+    "transcript": "Felix: Regression tests currently take 45 minutes on CI. Grace: I will parallelize Cypress test suites across 4 runners by tomorrow. Felix: I will prune deprecated end-to-end tests by Thursday.",
+    "expected_action_items": [
+      {"owner": "Grace", "task_keywords": ["parallelize", "cypress", "suites"], "due_date": "by tomorrow"},
+      {"owner": "Felix", "task_keywords": ["prune", "deprecated", "tests"], "due_date": "by thursday"}
+    ]
+  }
+]
