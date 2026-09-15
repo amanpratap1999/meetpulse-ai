@@ -5,13 +5,23 @@
   <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/FastAPI-0.110-009688.svg?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Vector%20Search-Cosine%20Similarity-orange.svg" alt="Vector Search" />
-  <img src="https://img.shields.io/badge/Tests-6%2F6%20Passing-brightgreen.svg" alt="Tests" />
+  <a href="https://github.com/amanpratap1999/meetpulse-ai/actions/workflows/ci.yml"><img src="https://github.com/amanpratap1999/meetpulse-ai/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <img src="https://img.shields.io/badge/Extraction%20F1-92.8%25-success.svg" alt="F1 Score" />
   <img src="https://img.shields.io/badge/Recall-100.0%25-success.svg" alt="Recall" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
 </p>
 
-MeetPulse AI is a high-throughput, low-latency intelligence service that transforms unstructured multi-speaker meeting transcripts into structured, actionable items with rigorous owner attribution, explicit deadline extraction, and cross-meeting semantic search.
+> **Recruiter & Engineer TL;DR:** A high-throughput meeting intelligence microservice that ingests unstructured multi-speaker transcripts, extracts verifiable action items with owner attribution and deadlines (92.8% F1, 100% recall), and indexes segments for sub-second semantic search via vector similarity.
+
+[💻 Run Locally in 30 Seconds](#-quickstart) • [🧠 System Architecture](#-system-architecture) • [📊 Benchmark Scorecard](#-benchmark-evaluation-scorecard) • [📡 API Reference](#-api-reference)
+
+---
+
+## 📸 Application Interface & Interactive API
+
+<p align="center">
+  <img src="assets/screenshots/dashboard.png" alt="MeetPulse AI Interactive API Documentation" width="850" />
+</p>
 
 ---
 
